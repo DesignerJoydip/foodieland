@@ -297,3 +297,259 @@ body{
 }
 .home-tasty-recips-crds-wrap .row > span{}
 /* home tasty recipes section css ended */
+
+
+
+.kitchen-hero {
+    padding: 80px 0;
+}
+.kitchen-hero .section-title {
+    font-size: 42px; font-weight: 700;
+}
+.kitchen-hero .section-hdng-para {
+    max-width: 480px;  margin: 20px 0 30px;
+}
+.hero-btn {
+    display: flex; align-items: center; gap: 10px;
+}
+.chef-wrapper {
+    position: relative; width: 100%; text-align: center;
+}
+.chef-img {
+    width: 100%; max-width: 710px; position: relative; z-index: 0;
+}
+.floating {
+    position: absolute; width: 70px; z-index: 1; will-change: transform; 
+}
+.floating-1 { left: 10%; bottom: 5%; }
+.floating-2 { left: 20%; top: 10%; }
+.floating-3 { right: 15%; top: 15%; }
+.floating-4 { right: 5%; bottom: 20%; }
+
+ 
+@keyframes floatShake {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    20%  { transform: translate(3px, -4px) rotate(3deg); }
+    40%  { transform: translate(-3px, 3px) rotate(-3deg); }
+    60%  { transform: translate(4px, 2px) rotate(2deg); }
+    80%  { transform: translate(-2px, -3px) rotate(-2deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+/* Tomato */
+.floating-1 {
+    animation: smoothFloat1 3.2s ease-in-out infinite;
+}
+
+/* Meat */
+.floating-2 {
+    animation: smoothFloat2 3.8s ease-in-out infinite;
+}
+
+/* Onion */
+.floating-3 {
+    animation: smoothFloat3 4.1s ease-in-out infinite;
+}
+
+/* Leaf */
+.floating-4 {
+    animation: smoothFloat4 3.5s ease-in-out infinite;
+}
+
+@keyframes smoothFloat1 {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    25%  { transform: translate(-4px, -6px) rotate(-2deg); }
+    50%  { transform: translate(3px, 4px) rotate(2deg); }
+    75%  { transform: translate(-2px, 2px) rotate(-1deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes smoothFloat2 {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    30%  { transform: translate(5px, -5px) rotate(3deg); }
+    60%  { transform: translate(-3px, 6px) rotate(-2deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes smoothFloat3 {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    20%  { transform: translate(-3px, 4px) rotate(2deg); }
+    40%  { transform: translate(4px, -3px) rotate(-3deg); }
+    80%  { transform: translate(-2px, 3px) rotate(1deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes smoothFloat4 {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    25%  { transform: translate(4px, 3px) rotate(2deg); }
+    55%  { transform: translate(-5px, -4px) rotate(-2deg); }
+    85%  { transform: translate(2px, -1px) rotate(1deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+
+
+/* insta section css start */
+.instagram-section {
+    padding: 80px 0;
+    background: linear-gradient(187.81deg, #FFFFFF 24.86%, #E7F9FD 96.09%);
+}
+
+.instagram-section .section-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.instagram-section .section-hdng-para {
+    max-width: 650px;
+    margin: 10px auto 40px;
+}
+
+.instagram-row {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Instagram Card */
+
+.insta-img {
+    width: 100%;
+    display: block;
+}
+
+.insta-content {
+    padding: 15px 18px;
+    font-size: 14px;
+}
+
+.insta-content p {
+    margin: 0 0 8px;
+    line-height: 1.4;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #777;
+}
+
+
+
+
+/* ----- Card Style ----- */
+.insta-card {
+    width: 100%;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+/* Header */
+.insta-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+}
+
+.profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.insta-header h4 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.insta-header span {
+    font-size: 12px;
+    color: #666;
+}
+
+.insta-dots {
+    margin-left: auto;
+    width: 18px;
+}
+
+/* Media */
+.insta-media {
+    position: relative;
+}
+
+.insta-media img {
+    width: 100%;
+    display: block;
+}
+
+.slide-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(0,0,0,0.6);
+    padding: 3px 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Actions */
+.insta-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+
+.insta-actions img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.insta-actions img:last-child {
+    margin-right: 0;
+}
+
+/* Likes */
+.likes {
+    font-size: 13px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+}
+
+/* Caption */
+.caption {
+    font-size: 13px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+/* Date */
+.post-date {
+    padding: 0 15px;
+    font-size: 11px;
+    color: #888;
+}
+
+/* Button */
+.insta-btn {
+    padding: 14px 28px;
+}
+.insta-btn>img{
+    filter: invert(1);
+}
+.insta-icn-btn-grp{
+    display: inline-flex; align-items: center; gap: 10px;
+}
+.insta-icon-btn{
+    width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; border: none; background: transparent; appearance: none; outline: none;
+}
+.insta-icon-btn>img{
+    width: 18px;
+}
+/* insta section css ended */
