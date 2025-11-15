@@ -1,0 +1,298 @@
+
+/* common css start */
+*{
+    padding: 0px; margin: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal; font-size: 16px;
+}
+
+.heading_font{
+    font-family: 'Madani Arabic DEMO'; font-weight: bold;
+}
+/* common css ended */
+
+/* common slick slider css start  */
+.slick-arrow{
+    width: 40px; height: 40px; border-radius: 100px; background-color: #000; z-index: 1; transform: translateY(-50%);
+}
+.slick-dots{
+    width: 100% !important; text-align: center; z-index: 1; width: auto; list-style-type: none; bottom: -45px;
+}
+.slick-dots li{
+    width: auto;
+}
+.slick-dots li button{
+    padding: 0px; width: 10px; height: 10px; border-radius: 10px; background-color: rgb(197, 197, 197); font-size: 0; color: transparent;
+}
+.slick-dots li button:before{
+    display: none !important;
+}
+.slick-dots li.slick-active button{
+    background-color: #000;
+}
+/* common slick slider css ended  */
+
+
+/* form css start */
+.btn-dark, .btn-primary{
+    min-width: 180px; min-height: 60px; display: inline-flex; align-items: center; justify-content: center; border-radius: 16px; font-size: 14px; font-weight: 500; column-gap: 15px; transition: all ease-in-out 0.4s;
+}
+.btn-dark .icon, .btn-primary .icon{
+    width: 24px; height: 24px;
+}
+.btn-primary{
+    background-color: #E7FAFE; border-color: #E7FAFE; color: #000;
+}
+/* form css ended */
+
+
+/* header section css start */
+.foodie_header{
+    width: 100%; position: relative; border-bottom: rgba(0, 0, 0, 0.1) 1px solid; z-index: 1;
+}
+.foodie_header_logo img{
+    max-height: 24px;
+}
+.foodie_header .hdr-main-row{
+    position: relative;
+}
+/* header section css ended */
+
+
+/* header menu css start */
+.foodie_header_menu{
+    list-style-type: none; width: auto; display: flex; align-items: center; margin: 0px; padding: 0px;
+}
+.foodie_header_menu > li{
+    width: auto; margin: 0px 30px; padding: 18px 0px; position: relative;
+}
+.foodie_header_menu > li a{
+    text-decoration: none; color: #000; font-weight: 500; font-size: 1rem; transition: all ease-in-out 0.4s;
+}
+
+/* header menu css ended */
+
+
+/* header social css start */
+.foodie_header_social{
+    list-style-type: none; width: auto; display: flex; align-items: center; position: relative; margin: 0px -20px; padding: 0px;
+}
+.foodie_header_social > li{
+    width: auto; padding: 0px 20px;
+}
+.foodie_header_social > li img{
+    max-height: 22px;
+}
+/* header social css ended */
+
+
+
+/* home top hero section css start */
+.home-hero-sctn{
+    width: 100%; display: inline-block; position: relative; overflow: hidden; padding: 40px 0px 80px;
+}
+.home-hero-slider-wrap{
+    width: 100%; position: relative; overflow: hidden;
+}
+.foodielandHero .slick-slide{
+    margin: 0px 20px;
+}
+.fodlndHroSlide{
+    background-color: red;  z-index: 0;
+}
+.foodielandHero .slick-dots{
+    position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%); z-index: 1;
+}
+.foodielandHero .slick-prev {
+    left: 55px;
+}
+.foodielandHero .slick-next {
+    right: 55px;
+}
+
+.fodlnd-hero-slide-card{
+    width: 100%; max-height: 640px; position: relative; overflow: hidden; border-radius: 20px; background-color: #E7FAFE; display: flex;
+}
+.fodlnd-hero-slide-card .card-common-col{
+    flex: 1;
+}
+.fodlnd-hero-slide-card .card-content-col{
+    position: relative;
+}
+.fodlnd-hero-slide-card .card-content-col-innr{
+    width: 100%; height: 100%; display: flex; flex-direction: column; row-gap: 32px; padding: 50px; position: relative;
+}
+.fodlnd-hero-slide-card .lft-top-row{
+    width: 100%; position: relative;
+}
+.fodlnd-hero-slide-card .lft-mid-row{
+    width: 100%; position: relative; display: flex; flex-direction: column; row-gap: 24px;
+}
+.fodlnd-hero-slide-card .lft-btm-row{
+    width: 100%; position: relative; margin-top: auto; display: flex; justify-content: space-between; align-items: center;
+}
+.fodlnd-hero-badge{
+    width: auto; display: inline-flex; position: relative; align-items: center; column-gap: 12px; padding: 10px 20px; border-radius: 30px; background-color: #fff; font-size: 14px; font-weight: 600; color: #000;
+}
+.fodlnd-hero-badge>img{
+    width: 24px;
+}
+.fodlnd-hero-slide-heading{
+    max-width: 90%; font-size: 64px; font-weight: 600; color: #000; line-height: 1.2; margin: 0px;
+}
+.fodlnd-hero-slide-para{
+    width: 100%; max-width: 520px; font-size: 16px; line-height: 1.2; color: rgba(0, 0, 0, 0.6); font-size: 15px; line-height: 1.8; margin: 0px;
+}
+.fodlnd-hero-tag-list{
+    width: 100%; list-style-type: none; display: flex; gap: 16px; padding: 0px; margin: 6px 0px 0px 0px;
+}
+.fodlnd-hero-tag{
+    width: auto; display: inline-flex; position: relative; align-items: center; column-gap: 12px; padding: 8px 16px; border-radius: 30px; background-color: rgba(0, 0, 0, 0.05); font-size: 14px; font-weight: 500; color: rgba(0, 0, 0, 0.6);
+}
+.fodlnd-hero-tag>img{
+    width: 24px;
+}
+.hero-brand-badge{
+    width: 150px; position: absolute; right: -75px; top: 50px; z-index: 1;
+}
+
+.fodlnd-hero-slide-card .card-img-col{
+    position: relative; overflow: hidden;
+}
+.fodlnd-hero-slide-card .card-img-col>img{
+    width: 100%; height: 100%; object-fit: cover;
+}
+/* home top hero section css ended */
+
+
+/* user-avater-card css start */
+.user-avater-card{
+    width: auto; position: relative; display: inline-flex; column-gap: 16px;
+}
+.user-avater-dp{
+    width: 50px; height: 50px; overflow: hidden; border-radius: 100px;
+}
+.user-avater-dp>img{
+    width: 100%; height: 100%; object-fit: cover;
+}
+.user-avater-card .user-avater-cnt{
+    width: auto; display: inline-flex; flex-direction: column; row-gap: 8px; justify-content: center;
+
+}
+.user-avater-title{
+    font-size: 16px; font-weight: 600; color: #000; margin: 0px; line-height: 1;
+}
+.user-avater-subtitle{
+    font-size: 14px; font-weight: 400; color: rgba(0, 0, 0, 0.6); margin: 0px; line-height: 1;
+}
+/* user-avater-card css ended */
+
+
+/* common section css start */
+.home-common-section{
+    width: 100%; position: relative; display: inline-block; padding: 80px 0px;
+}
+.common-section-hdng{
+    width: 100%; display: inline-block; margin-bottom: 80px;
+}
+.section-title{
+    color: #000; font-size: 48px; font-weight: 600; line-height: 1.2; margin: 0px;
+}
+.section-title.bottom-gap{
+    margin-bottom: 20px;
+}
+.section-title + .section-hdng-para{
+    margin-top: 20px;
+}
+.section-hdng-para + .section-title{
+    margin-top: 20px;
+}
+.section-hdng-para{
+    max-width: 752px; margin: 0px auto; color: rgba(0, 0, 0, 0.6); font-size: 16px; line-height: 1.4;
+}
+/* common section css ended */
+
+
+/* home category section css start */
+.cat-slider-wrap{
+    position: relative; margin: 0px -20px;
+}
+.foodielandCatSlider .slick-slide{
+    padding: 0px 20px;
+}
+.foodielandCatSlider .cat-card-box{
+    margin-top: 60px;
+}
+.cat-card-box{
+    width: 100%; min-height: 152px; display: flex; flex-direction: column; justify-content: flex-end; text-align: center; position: relative; background: linear-gradient(187.81deg, #FFFFFF 24.86%, #e8f3cd 96.09%); padding: 80px 10px 10px 10px; border-radius: 30px;
+}
+.cat-card-box.gray{
+    background: linear-gradient(187.81deg, #FFFFFF 24.86%, rgba(112, 130, 70, 0.1) 96.09%);
+}
+.cat-card-box.red{
+    background: linear-gradient(187.81deg, #FFFFFF 24.86%, rgba(204, 38, 27, 0.1) 96.09%);
+}
+.cat-card-box.yellow{
+    background: linear-gradient(187.81deg, #FFFFFF 24.86%, rgba(240, 158, 0, 0.3) 96.09%);
+}
+.cat-card-box>.card-icon{
+    width: 100px; position: absolute; top: -50px; left: 50%; transform: translateX(-50%);
+}
+.cat-card-box .cat-card-hdng-wrap{
+    width: 100%; flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+.cat-card-box h3{
+    font-weight: 500; color: #000; font-size: 18px; line-height: 1.2; margin: 0px; padding: 0px;
+}
+/* home category section css start */
+
+
+
+/* home tasty recipes section css start */
+.card.recips-card{
+    width: 100%; padding: 16px; border-radius: 30px; background: linear-gradient(187.81deg, #FFFFFF 24.86%, #E7F9FD 96.09%); border: none; row-gap: 16px; transition: all ease-in-out 0.4s;
+}
+.card.recips-card:hover {
+    transform: scale(1.02,1.02);
+}
+.card.recips-card .recips-card-img-holder{
+    width: 100%; height: 250px; overflow: hidden; border-radius: 30px; position: relative;
+}
+.card.recips-card .recips-card-img-holder > img{
+    width: 100%; height: 100%; object-fit: cover; transition: all ease-in-out 0.4s;
+}
+.card.recips-card:hover  .recips-card-img-holder > img{
+    transform: scale(1.1,1.1) rotate(3deg);
+}
+.card.recips-card .card-body{
+    padding: 8px; display: flex; flex-direction: column; row-gap: 24px; min-height: 150px;
+}
+.card.recips-card .card-title{
+    margin: 0px; font-size: 24px; color: #000; font-weight: 600; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.card.recips-card .card-body-btm-row{
+    margin-top: auto;
+}
+.card.recips-card .fodlnd-hero-tag-list{
+    margin: 0px;
+}
+.card.recips-card .fodlnd-hero-tag{
+    padding: 0px; background: transparent;
+} 
+.card.recips-card .marked-round-box{
+    width: 48px; height: 48px; border-radius: 100px; display: flex; align-items: center; justify-content: center; position: absolute; top: 32px; right: 32px; z-index: 1; background-color: #fff;
+}
+.card.recips-card .marked-round-box >img{
+    width: 20px; filter: grayscale(1); opacity: 0.5;
+}
+.card.recips-card .marked-round-box.active >img{
+    width: 20px; filter: grayscale(0); opacity: 1;
+}
+.home-tasty-recips-crds-wrap .row{
+    margin-left: -20px; margin-right: -20px; row-gap: 40px;
+}
+.home-tasty-recips-crds-wrap .row > div{
+    padding-left: 20px; padding-right: 20px;
+}
+/* home tasty recipes section css ended */
